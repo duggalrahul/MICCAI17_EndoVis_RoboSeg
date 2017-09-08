@@ -4,10 +4,11 @@
 This repo contains my solution for the Robotic Instrument Segmentation Sub-Challenge which was part of the Endoscopic Vision Challenge held in conjunction with MICCAI 2017. The challenge webpage can be found [here](https://endovissub2017-roboticinstrumentsegmentation.grand-challenge.org/)
 
 ![Fig 1. An illustration of the binary segmentation task segmentation.](demo.png)
+Fig 1. An illustration of the binary segmentation task segmentation.
 
 ### Contents
 1. [Explanation](#explanation)
-2. [Requirements](requirements)
+2. [Requirements](#requirements)
 3. [Demo](#demo)
 4. [Contact](#contact)
 5. [Acknowledgements](#acknowledgements)
@@ -23,8 +24,8 @@ A CRF is applied to the coarse output of the CNN. I use the CNN output as the un
 
 ## Requirements
 To run this code, you require the following softwares.
-1. Anaconda for python 2.7 - Follow instructions [here](https://docs.continuum.io/anaconda/install/){:target="_blank"}.
-2. Pytorch - Get [here](http://pytorch.org/){:target="_blank"}
+1. Anaconda for python 2.7 - Follow instructions [here](https://docs.continuum.io/anaconda/install/).
+2. Pytorch - Get [here](http://pytorch.org/).
 3. To get Pytorch to work on GPU, you need to have CUDA.
 
 ## Demo
@@ -42,9 +43,9 @@ For any assistance with the code or for reporting errors, please get in touch at
 
 ## Acknowledgements
 I would like to thank the authors of the following repos/blogs -
-1. For implementations of standard CNN models - [this](https://github.com/kuangliu/pytorch-cifar){:target="_blank"}.
-2. For the CRF implementation - [this](http://www2.warwick.ac.uk/fac/sci/dcs/research/tia/software/sntoolbox/){:target="_blank"}.
-3. Good explanation of CNN+CRFs - [this](http://warmspringwinds.github.io/tensorflow/tf-slim/2016/12/18/image-segmentation-with-tensorflow-using-cnns-and-conditional-random-fields/){:target="_blank"}.
+1. For implementations of standard CNN models - [this](https://github.com/kuangliu/pytorch-cifar).
+2. For the CRF implementation - [this](http://www2.warwick.ac.uk/fac/sci/dcs/research/tia/software/sntoolbox/).
+3. Good explanation of CNN+CRFs - [this](http://warmspringwinds.github.io/tensorflow/tf-slim/2016/12/18/image-segmentation-with-tensorflow-using-cnns-and-conditional-random-fields/).
 
 ## License
 This code is released under the MIT License (refer to the LICENSE file for details).
